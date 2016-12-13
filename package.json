@@ -1,0 +1,30 @@
+{
+  "name": "node-udp-server-client",
+  "version": "1.0.0",
+  "description": "Node.js UDP server client",
+  "keywords": [
+    "node.js",
+    "udp",
+    "server",
+    "client"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/node-udp-server-client.git"
+  },
+  "author": "Doron Segal doron2402@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/node-udp-server-client/issues"
+  },
+  "homepage": "https://github.com/doron2402/node-udp-server-client#readme",
+  "devDependencies": {
+    "eslint": "^3.12.1",
+    "eslint-plugin-hapi": "^4.0.0"
+  }
+}
