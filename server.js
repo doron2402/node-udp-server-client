@@ -9,6 +9,9 @@ server.on('error', (err) => {
 });
 
 server.on('message', (msg, rinfo) => {
+  console.log(`Message: ${msg}`);
+  console.log(`Message (toString): ${msg.toString()}`);
+  console.log(`rinfo: ${JSON.stringify(rinfo)}`);
   console.log(`server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
 });
 
